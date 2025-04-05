@@ -1,12 +1,12 @@
 // 通用安装逻辑
 let deferredPrompt;
 // 注册 Service Worker
-if ("serviceWorker" in navigator) {
-  navigator.serviceWorker
-    .register("sw.js") // 路径需与网站根目录对应
-    .then(() => console.log("Service Worker 注册成功"))
-    .catch((e) => console.log("Service Worker 注册错误：", e));
-}
+// if ("serviceWorker" in navigator) {
+//   navigator.serviceWorker
+//     .register("sw.js") // 路径需与网站根目录对应
+//     .then(() => console.log("Service Worker 注册成功"))
+//     .catch((e) => console.log("Service Worker 注册错误：", e));
+// }
 // 安卓PWA安装事件
 window.addEventListener("beforeinstallprompt", (e) => {
   e.preventDefault();
