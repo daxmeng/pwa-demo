@@ -1,0 +1,27 @@
+{
+    "name": "我的应用",
+    "short_name": "App",
+    "start_url": "/",
+    "icons": [
+        {
+            "src": "https://cdn.shoplazza.com/cd6cb89a28befef582ecb1dd2e7d0d0c.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "https://cdn.shoplazza.com/615cbecd4d948d3ed368a51e3d39ce11.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#2196f3",
+    "shortcuts": [
+        {
+            "name": "最新消息",
+            "url": "/news"
+        }
+    ]
+}
