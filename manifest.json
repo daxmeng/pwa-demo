@@ -1,27 +1,30 @@
 {
-    "name": "Best-Short",
-    "short_name": "Best-Short",
+    "name": "BestShort",
+    "short_name": "BestShort",
     "start_url": "/",
     "icons": [
         {
-            "src": "https://cdn.shoplazza.com/cd6cb89a28befef582ecb1dd2e7d0d0c.png",
+            "src": "https://cdn.shoplazza.com/9dee82c21164cf854526938053a21fe4_192x.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "https://cdn.shoplazza.com/615cbecd4d948d3ed368a51e3d39ce11.png",
+            "src": "https://cdn.shoplazza.com/9dee82c21164cf854526938053a21fe4.png",
             "sizes": "512x512",
             "type": "image/png"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "https://cdn.shoplazza.com/c528d5dc6b025deded6275a0bd04b4be.png",
+            "sizes": "1080x1920",
+            "type": "image/png",
+            "form_factor": "narrow"
         }
     ],
     "background_color": "#ffffff",
     "display": "standalone",
     "scope": "/",
     "theme_color": "#2196f3",
-    "shortcuts": [
-        {
-            "name": "最新消息",
-            "url": "/news"
-        }
-    ]
+    "shortcuts": []
 }
